@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { loginWithEmail, registerWithEmail, loginWithGoogle } from "../../services/authServices";
+import { loginWithEmail, registerWithEmail, loginWithGoogle } from "../../services/AuthServices";
 import "./AuthForm.css";
 
 const AuthForm = () => {
