@@ -1,7 +1,7 @@
 import { useState, useEffect, useContext, useRef, useMemo, createContext } from "react";
 import { useKanban } from "../../hooks/useKanban";
-import { useAuth } from "../../context/authContext";
-import { logout } from "../../services/authServices";
+import { useAuth } from "../../context/AuthContext";
+import { logout } from "../../services/AuthServices";
 import "./KanbanBoard.css";
 
 const KanbanContext = createContext();
