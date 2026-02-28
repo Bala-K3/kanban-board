@@ -1,5 +1,5 @@
-import { useAuth } from "./context/authContext";
-import AuthForm from "./components/auth/authForm";
+import { useAuth } from "./context/AuthContext";
+import AuthForm from "./components/auth/AuthForm";
 import KanbanBoard from "./components/board/KanbanBoard";
 
 const App = () => {
